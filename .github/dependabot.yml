@@ -9,3 +9,4 @@ updates:
     directory: "/data-science" # Location of package manifests
     schedule:
       interval: "daily"
+    open-pull-requests-limit: 5
