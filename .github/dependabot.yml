@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "pip" # See documentation for possible values
-    directory: "data-science" # Location of package manifests
+    directory: "/data-science" # Location of package manifests
     schedule:
       interval: "daily"
