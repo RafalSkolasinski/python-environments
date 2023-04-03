@@ -2023,14 +2023,14 @@ files = [
 
 [[package]]
 name = "keras-tuner"
-version = "1.3.3"
+version = "1.3.4"
 description = "A Hyperparameter Tuning Library for Keras"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "keras-tuner-1.3.3.tar.gz", hash = "sha256:f72bffb67ddf6db5dcde678108659e3e156c5d8e607dd01e876f2cede5f74ba4"},
-    {file = "keras_tuner-1.3.3-py3-none-any.whl", hash = "sha256:6a7ae65366e8b60baee4d13c8c7418843ab36b1b017084aa17ff91ebd4de0634"},
+    {file = "keras-tuner-1.3.4.tar.gz", hash = "sha256:8443ff67dc769b630cbc295ad997df5d5e357fed2559b1d991c42378b4c390ac"},
+    {file = "keras_tuner-1.3.4-py3-none-any.whl", hash = "sha256:bdb94289c4214c671508c58f6a974409132658006c4884b5de6a0093a92b34ea"},
 ]
 
 [package.dependencies]
@@ -2043,7 +2043,7 @@ tensorflow = ">=2.0"
 [package.extras]
 bayesian = ["scikit-learn", "scipy"]
 build = ["build", "namex"]
-tests = ["black", "flake8", "grpcio-tools (==1.30)", "ipython", "isort", "namex", "pandas", "portpicker", "pytest", "pytest-cov", "pytest-xdist", "scikit-learn", "scipy"]
+tests = ["black", "flake8", "ipython", "isort", "namex", "pandas", "portpicker", "pytest", "pytest-cov", "pytest-xdist", "scikit-learn", "scipy"]
 
 [[package]]
 name = "kiwisolver"
