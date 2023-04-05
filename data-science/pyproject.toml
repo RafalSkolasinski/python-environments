@@ -52,7 +52,7 @@ jedi = "^0.18.0"
 black = "^23.3"
 nbqa = "^1.7.0"
 pytest = "^6.0.2"
-pyflakes = "^2.2.0"
+pyflakes = "^3.0.1"
 
 pytest-cov = "^4.0.0"
 pytest-flakes = "^4.0.2"
