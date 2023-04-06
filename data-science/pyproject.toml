@@ -35,7 +35,7 @@ statsmodels = "^0.13.1"
 mxnet = { version = "^1.7.0", optional = true }
 tensorflow = { version = "^2.6.0", optional = true }
 torch = { version = "^1.7.1", optional = true }
-dash = "^1.21.0"
+dash = ">=1.21,<3.0"
 keras-tuner = "^1.0.4"
 
 [tool.poetry.extras]
