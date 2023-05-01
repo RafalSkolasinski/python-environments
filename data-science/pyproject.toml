@@ -46,7 +46,7 @@ mxnet = ["mxnet"]
 [tool.poetry.dev-dependencies]
 jupyterlab = "~3.6"
 ipywidgets = "^8.0.6"
-nbdime = "^3.1.0"
+nbdime = "^3.2.1"
 jedi = "^0.18.0"
 
 black = "^23.3"
