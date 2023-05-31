@@ -835,22 +835,23 @@ files = [
 
 [[package]]
 name = "dash"
-version = "2.9.2"
+version = "2.10.1"
 description = "A Python framework for building reactive web-apps. Developed by Plotly."
 category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "dash-2.9.2-py3-none-any.whl", hash = "sha256:f54c0ce81defa92b429f967829f8a5ccdb0dc8208d4e4e96f7149a016c820071"},
-    {file = "dash-2.9.2.tar.gz", hash = "sha256:ee3d244f560e58300d807f820f7854f8f9d3b482d0c99ddb3ff7cb4dc3be1346"},
+    {file = "dash-2.10.1-py3-none-any.whl", hash = "sha256:17ae100dbb0531d31a75b5982ce79e60dc1eae6efb653fb3128f158c3d827415"},
+    {file = "dash-2.10.1.tar.gz", hash = "sha256:8933d6feed3a6ae67e6b70be1fe00f11ad594ce646faebfb4c38a0c4ddca8296"},
 ]
 
 [package.dependencies]
 dash-core-components = "2.0.0"
 dash-html-components = "2.0.0"
 dash-table = "5.0.0"
-Flask = ">=1.0.4"
+Flask = ">=1.0.4,<=2.2.3"
 plotly = ">=5.0.0"
+Werkzeug = "<=2.2.3"
 
 [package.extras]
 celery = ["celery[redis] (>=5.1.2)", "importlib-metadata (<5)", "redis (>=3.5.3)"]
